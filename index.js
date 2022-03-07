@@ -8,7 +8,7 @@ const port = 3000;
 //HTTP logger
 app.use(morgan('combined'));
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'PUBLIC')));
 
 // Tamplate engine
 app.engine('hbs', handlebars.engine({
