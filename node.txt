@@ -1,0 +1,57 @@
+GIT: 
+1. git init
+2. git remote add origin (link)
+3. git add .
+4. git commit -m "ten"
+5. git push -u origin master ( push len git web)
+6. git pull (lay code ve vscode)
+7. git add, git commit -m "", git push (push len git web)
+
+HTTP protocol
+HTTP Request Method chỉ phương thức để được thực hiện trên nguồn được nhận diện bởi Resquest-URI đã cung cấp
+
+GET
+Được sử dụng để lấy thông tin từ Server đã cung cấp sử dụng vởi 1 URI đã cung cấp. Các yêu cầu sử dụng Get chỉ nhận dữ liệu chứ ko có ảnh hưởng gì tới dữ liệu
+
+1xx: Thông tin
+
+2xx: Thành công
+
+3xx Điều hướng lại
+
+4xx Lỗi client
+ 
+5xx: lỗi server 
+
+SSR (server side rendering): content chưa hết các  
+CSR (client side rendering):
+
+Express: 
+
+Nodemon: lắng nghe được sự thay đổi phải
+
+Morgan: thấy được log cho ng dùng nhìn được request
+
+Template engine (handlebars): giúp viết ra file chứa các html gọn gàng, chia layout...
+
+Static files: 
+app.use(express.static(path.join(__dirname, ''))); 
+-SCSS;
+npm-sass
+ 
+Bootstrap:
+
+
+Phương thức get: gửi đi với dạng query 
+Phương thức post: muốn gửi từ client lên server , gưi đi với dạng form data với phương thức post
+
+MVC: 
+Bóc tách các thành phần thành 3 thành phần chính:
++ Model: Nội dung của các html css, data
++ View: chứa html css
++ Controller: từ phía client(Browser) đi lên webserver/routes/dispatcher
+
+Browser lên webserver qua express 
+Từ webserver lên routes: 
+
+	
